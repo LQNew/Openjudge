@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(400,5): warning MSB8029: The Intermediate directory or Output directory cannot reside under the Temporary directory as it could lead to issues with incremental build.
+  201503-2.cpp
+d:\vs\c++code\ccf\201503-2\201503-2\201503-2.cpp(13): error C2228: “.count”的左边必须有类/结构/联合
+  d:\vs\c++code\ccf\201503-2\201503-2\201503-2.cpp(13): note: 类型是“int”
