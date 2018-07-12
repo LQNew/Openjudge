@@ -1,4 +1,5 @@
-//ֻд��һ�� Dijkstra�㷨ģ�壬û�п������⣬orz..��Ϊ��������Ӫ���ˣ����ⲻ��ˢ��
+//只写了一个 Dijkstra算法模板，没有考虑题意，orz..因为北大夏令营凉了，弃题不再刷！
+//本道题并没有完全解决！有需求的同学建议自己在网上扒拉些解法吧！
 #include<iostream>
 #include<cstring>
 #include<vector>
@@ -21,8 +22,8 @@ int main(){
         for(int i=1;i<=N;i++){
             while(!edge[i].empty()) edge[i].clear();
         }
-        memset(&Dis[1],-1,sizeof(int)*N); //�����ʼ��Ϊ-1
-        memset(&mark[1],0,sizeof(bool)*N); //�ڵ��ʶ����ʼ��Ϊ�Ƿ���
+        memset(&Dis[1],-1,sizeof(int)*N); //距离初始化为-1
+        memset(&mark[1],0,sizeof(bool)*N); //节点标识都初始化为非访问
         for(int i=0;i<M;i++){
             cin>>a>>b>>t;
             Edge tmp;
